@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iskool Sports - Premium Baseball Equipment</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <div class="brand-logo">
+                    <span class="brand-text">Iskool Sports</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="language-btn" id="languageToggle">
+                    <i class="fas fa-globe"></i>
+                    <span class="language-text">ES</span>
+                </button>
+                <div class="search-container">
+                    <input type="text" class="search-input" placeholder="Search products..." id="searchInput" autocomplete="off">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                    <div class="search-dropdown" id="searchDropdown" style="display: none;">
+                        <div class="dropdown-content" id="dropdownContent">
+                            <!-- Autocomplete results will be populated here -->
+                        </div>
+                    </div>
+                </div>
+                <button class="cart-btn" title="Purchase Requests">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </button>
+                <button class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Game-Changing Used Baseball Gear</h1>
+                <p>Discover why 70+ players chose Iskool Sports for their equipment needs. Our battle-tested, pre-owned gear delivers the same performance as new equipment at up to 70% off retail prices. From Little League to the Big Leagues - because champions know that used doesn't mean less, it means proven and ready to win.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Shop Now</button>
+                    <button class="btn btn-secondary">View Collection</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <i class="fas fa-trophy"></i>
+                    <span>Champions Choose Used</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+    </section>
+
+    <!-- Explanation Section -->
+    <section class="explanation">
+        <div class="container">
+            <div class="explanation-content">
+                <div class="explanation-text">
+                    <h2>What is Iskool Sports?</h2>
+                    <p>Iskool Sports is Boston's premier destination for quality used baseball equipment. We specialize in pre-owned gear that's been carefully selected and verified for performance, offering professional-grade equipment at a fraction of retail prices.</p>
+                    <p>Our mission is simple: make high-quality baseball equipment accessible to players of all levels by providing well-maintained, game-ready gear that delivers the same performance as new equipment, but at unbeatable prices.</p>
+                    <div class="explanation-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Quality verified equipment</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>Up to 70% off retail prices</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-shipping-fast"></i>
+                            <span>Fast shipping nationwide</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-star"></i>
+                            <span>100% customer satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="explanation-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">70+</div>
+                        <div class="stat-label">Successful Sales</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">$5K+</div>
+                        <div class="stat-label">Total Revenue</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">States Reached</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Positive Rating</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2 class="section-title">Championship-Caliber Used Equipment</h2>
+            <p class="section-subtitle">Every piece of gear has been battle-tested and proven on the field - now it's ready to elevate your game</p>
+            <div class="categories-grid">
+                <div class="category-card" data-category="bats">
+                    <div class="category-icon">
+                        <i class="fas fa-baseball-ball"></i>
+                    </div>
+                    <h3>Used Baseball Bats</h3>
+                    <p>Pre-owned wood, aluminum, and composite bats that still deliver big hits</p>
+                    <button class="category-btn">Explore</button>
+                </div>
+                <div class="category-card" data-category="gloves">
+                    <div class="category-icon">
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <h3>Used Baseball Gloves</h3>
+                    <p>Broken-in gloves that are game-ready and perfectly molded</p>
+                    <button class="category-btn">Explore</button>
+                </div>
+                <div class="category-card" data-category="balls">
+                    <div class="category-icon">
+                        <i class="fas fa-circle"></i>
+                    </div>
+                    <h3>Baseball Accessories</h3>
+                    <p>Quality used protective gear, batting gloves, and equipment</p>
+                    <button class="category-btn">Explore</button>
+                </div>
+                <div class="category-card" data-category="gear">
+                    <div class="category-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Protective Equipment</h3>
+                    <p>Game-tested helmets, guards, and safety gear</p>
+                    <button class="category-btn">Explore</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Game-Ready Equipment Available Now</h2>
+            <p class="section-subtitle">These championship-tested pieces are ready to join your team and help you dominate on the field</p>
+            <div class="search-results-info" id="searchResultsInfo" style="display: none;">
+                <p id="searchResultsText"></p>
+            </div>
+            <div class="search-test-buttons" style="margin-bottom: 1rem; text-align: center;">
+                <button class="btn btn-secondary" onclick="searchFor('Wilson')" style="margin: 0.25rem;">Wilson</button>
+                <button class="btn btn-secondary" onclick="searchFor('bat')" style="margin: 0.25rem;">Bat</button>
+                <button class="btn btn-secondary" onclick="searchFor('glove')" style="margin: 0.25rem;">Glove</button>
+                <button class="btn btn-secondary" onclick="clearSearch()" style="margin: 0.25rem;">Clear Search</button>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-badge">Available</div>
+                    <div class="product-image">
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>New 2023 Wilson A2000 12.75 outfielder Black/Red With SPIN CONTROL and SUPERSKIN</h3>
+                        <p>Premium outfielder glove with advanced technology</p>
+                        <div class="product-price">
+                            <span class="current-price">$289</span>
+                            <span class="original-price">$400</span>
+                        </div>
+                        <button class="request-purchase" onclick="showPurchaseForm('New 2023 Wilson A2000 12.75 outfielder Black/Red With SPIN CONTROL and SUPERSKIN', '$289', '$400')">Request Purchase</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Available</div>
+                    <div class="product-image">
+                        <i class="fas fa-baseball-ball"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>33" Demarini The Goods One Piece Baseball Bat</h3>
+                        <p>High-performance one-piece bat with incredible pop</p>
+                        <div class="product-price">
+                            <span class="current-price">$211</span>
+                            <span class="original-price">$400</span>
+                        </div>
+                        <button class="request-purchase" onclick="showPurchaseForm('33&quot; Demarini The Goods One Piece Baseball Bat', '$211', '$400')">Request Purchase</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Available</div>
+                    <div class="product-image">
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Guaranteed Aria Sliding Mitt - Mystery Box Of One</h3>
+                        <p>Mystery box containing one guaranteed Aria sliding mitt</p>
+                        <div class="product-price">
+                            <span class="current-price">$112</span>
+                            <span class="original-price">$85</span>
+                        </div>
+                        <button class="request-purchase" onclick="showPurchaseForm('Guaranteed Aria Sliding Mitt - Mystery Box Of One', '$112', '$85')">Request Purchase</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Available</div>
+                    <div class="product-image">
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Mystery Box Of One Sliding Mitt</h3>
+                        <p>Mystery box with one sliding mitt - surprise inside!</p>
+                        <div class="product-price">
+                            <span class="current-price">$112</span>
+                            <span class="original-price">$85</span>
+                        </div>
+                        <button class="request-purchase" onclick="showPurchaseForm('Mystery Box Of One Sliding Mitt', '$112', '$85')">Request Purchase</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Available</div>
+                    <div class="product-image">
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>RARE New Aria Absolutely Ridiculous Sliding Mitt - Out of This World Edition</h3>
+                        <p>Limited edition sliding mitt with unique design</p>
+                        <div class="product-price">
+                            <span class="current-price">$111</span>
+                            <span class="original-price">$--</span>
+                        </div>
+                        <button class="request-purchase" onclick="showPurchaseForm('RARE New Aria Absolutely Ridiculous Sliding Mitt - Out of This World Edition', '$111', '$--')">Request Purchase</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-badge">Available</div>
+                    <div class="product-image">
+                        <i class="fas fa-baseball-ball"></i>
+                    </div>
+                    <div class="product-info">
+                        <h3>Custom 2023 Victus JC2 Wood Bat Birch 29 oz 32" (-3)</h3>
+                        <p>Custom birch wood bat with professional specifications</p>
+                        <div class="product-price">
+                            <span class="current-price">$89</span>
+                            <span class="original-price">$210</span>
+                        </div>
+                        <button class="request-purchase" onclick="showPurchaseForm('Custom 2023 Victus JC2 Wood Bat Birch 29 oz 32\" (-3)', '$89', '$210')">Request Purchase</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recently Viewed Section -->
+    <section class="recently-viewed">
+        <div class="container">
+            <h2 class="section-title">Recently Viewed</h2>
+            <p class="section-subtitle">Continue browsing the equipment you've been checking out</p>
+            <div class="recently-viewed-grid" id="recentlyViewedGrid">
+                <!-- Recently viewed items will be populated by JavaScript -->
+                <div class="no-recent-items" style="display: none;">
+                    <div class="no-recent-content">
+                        <i class="fas fa-eye-slash"></i>
+                        <h3>No Recently Viewed Items</h3>
+                        <p>Start browsing our equipment to see your recently viewed items here!</p>
+                        <button class="btn btn-primary" onclick="document.querySelector('#products').scrollIntoView({behavior: 'smooth'})">Browse Products</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recently Sold Section -->
+    <section class="sold-products">
+        <div class="container">
+                <h2 class="section-title">Recently Sold</h2>
+                <p class="section-subtitle">Showing 27 of 70+ successful sales to our customers</p>
+            <div class="sold-grid">
+                <div class="sold-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>Victus, Chandler, Old Hickory Wood Baseball Bat Lot All 32' 29oz Drop -3</h4>
+                            <p>Sold for $399</p>
+                            <span class="sold-time">4 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-baseball-ball sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>New 2023 Louisville Slugger Select PWR BBCOR Certified Bat (-3) 29 oz 32"</h4>
+                            <p>Sold for $265</p>
+                            <span class="sold-time">15 days ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>NEW/BLEMMED 2023 Wilson A2000 1786 11.5" Infield Glove Right Hand Throw</h4>
+                            <p>Sold for $225</p>
+                            <span class="sold-time">7 days ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-baseball-ball sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>New 2025 Rawlings Clout AI BBCOR RBB5C3</h4>
+                            <p>Sold for $224</p>
+                            <span class="sold-time">15 days ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>Game Ready Heart of the Hide 11.5" Infield Baseball Glove</h4>
+                            <p>Sold for $190</p>
+                            <span class="sold-time">5 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-eye sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>Authentic Oakley Sutro Purple Sunglasses</h4>
+                            <p>Sold for $125</p>
+                            <span class="sold-time">2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>RARE New Aria Absolutely Ridiculous Sliding Mitt - Out of This World Editon</h4>
+                            <p>Sold for $124</p>
+                            <span class="sold-time">about 1 month ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>ARIA Absolutely Ridiculous Miami Ice Sliding Mitt</h4>
+                            <p>Sold for $111</p>
+                            <span class="sold-time">3 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-shield-alt sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>Bundle Sand EvoShield Leg And Elbow Guard</h4>
+                            <p>Sold for $139</p>
+                            <span class="sold-time">10 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Hidden items (will be shown when pagination is used) -->
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>Like New Evoshield Red Pro-SRZ™ 2.0 Batter's Double Strap Elbow Guard Senior</h4>
+                            <p>Sold for $62</p>
+                            <span class="sold-time">28 days ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>Like New EvoShield 2.0 Sliding Mitt Red Senior</h4>
+                            <p>Sold for $36</p>
+                            <span class="sold-time">14 days ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>Bruce Bolt Medium Bader Series Baby Blue and Red</h4>
+                            <p>Sold for $59</p>
+                            <span class="sold-time">5 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>New Bruce Bolt Medium Long Cuff Black Batting Gloves</h4>
+                            <p>Sold for $85</p>
+                            <span class="sold-time">9 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>New Bruce Bolt Large Long Cuff White Batting Gloves</h4>
+                            <p>Sold for $85</p>
+                            <span class="sold-time">10 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>New Bruce Bolt Large Long Cuff Patriot Series Batting Gloves</h4>
+                            <p>Sold for $85</p>
+                            <span class="sold-time">6 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-shoe-prints sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>New White Men's 11 (W 12) Adidas Afterburner 8 Low Top Molded Cleats</h4>
+                            <p>Sold for $39</p>
+                            <span class="sold-time">10 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-shoe-prints sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>New Black and White Men's 11.5 (W 12.5) Adidas Afterburner 8 Low Top Metal Cleats</h4>
+                            <p>Sold for $49</p>
+                            <span class="sold-time">about 1 month ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-shoe-prints sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>New Black Men's 11.5 (W 12.5) Adidas Afterburner 8 Low Top Metal Cleats</h4>
+                            <p>Sold for $39</p>
+                            <span class="sold-time">10 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-shoe-prints sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>New White Men's 10.5 (W 11.5) Adidas Afterburner 8 Low Top Molded Cleats</h4>
+                            <p>Sold for $39</p>
+                            <span class="sold-time">4 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>Mystery Box Of One Sliding Mitt</h4>
+                            <p>Sold for $49</p>
+                            <span class="sold-time">3 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>2023 A2K Japan 11.5 Infield Glove</h4>
+                            <p>Sold for $202</p>
+                            <span class="sold-time">3 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>Like New 2023 Infield Rawlings Heart of the Hide Right Hand Throw Baseball Glove 11.5"</h4>
+                            <p>Sold for $187</p>
+                            <span class="sold-time">12 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-baseball-ball sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>Custom Tater Wood Bat Maple 29 oz 32"</h4>
+                            <p>Sold for $71.10</p>
+                            <span class="sold-time">10 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-eye sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>Oakley Sutro Lite Sunglasses 24k Prizm Gold | One Size Fits All</h4>
+                            <p>Sold for $141</p>
+                            <span class="sold-time">about 1 month ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-baseball-ball sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>Don't Buy Reserved | Like New Chandler CB271A Wood Bat 29oz 32in (-3)</h4>
+                            <p>Sold for $139</p>
+                            <span class="sold-time">12 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-baseball-ball sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>2023 Victus V-Cut Wood Bat 29 oz 32" (-3)</h4>
+                            <p>Sold for $72</p>
+                            <span class="sold-time">5 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-baseball-ball sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>Custom 2023 Old Hickory ML1 Wood Bat Maple 29 oz 32" (-3)</h4>
+                            <p>Sold for $104</p>
+                            <span class="sold-time">5 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>New A2000 Fully Conditioned Outfield 12.75" 1799 Baseball Glove</h4>
+                            <p>Sold for $250</p>
+                            <span class="sold-time">6 months ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sold-item hidden-item">
+                    <div class="sold-badge">SOLD</div>
+                    <div class="sold-product">
+                        <i class="fas fa-hand-paper sold-icon"></i>
+                        <div class="sold-info">
+                            <h4>USA Theme Custom 44 Pro 11.5 Infield Glove</h4>
+                            <p>Sold for $144</p>
+                            <span class="sold-time">Recently</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sold-pagination">
+                <button class="pagination-btn" id="prevPage" disabled>
+                    <i class="fas fa-chevron-left"></i>
+                    Previous
+                </button>
+                <div class="pagination-numbers">
+                    <button class="pagination-number active" data-page="1">1</button>
+                    <button class="pagination-number" data-page="2">2</button>
+                    <button class="pagination-number" data-page="3">3</button>
+                </div>
+                <button class="pagination-btn" id="nextPage">
+                    Next
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="sold-notice">
+                <i class="fas fa-trophy"></i>
+                <span>70+ successful sales and counting! Join our satisfied customers.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Why Choose Iskool Sports?</h2>
+                    <p>We're passionate about proving that used baseball equipment still makes a huge difference. With 70+ successful sales, 100% positive feedback, and over $5,000 in total sales, our carefully curated selection of pre-owned gear combines proven performance, Boston tradition, and incredible value. Because great players know that used doesn't mean less - it means battle-tested and ready to win.</p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-shipping-fast"></i>
+                            <div>
+                                <h4>Fast Shipping</h4>
+                                <p>Free shipping on orders over $75</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-medal"></i>
+                            <div>
+                                <h4>Proven Quality</h4>
+                                <p>Game-tested equipment that's already proven itself</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-dollar-sign"></i>
+                            <div>
+                                <h4>Incredible Value</h4>
+                                <p>Save up to 60% on premium used equipment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="stats-card">
+                        <div class="stat">
+                            <span class="stat-number">70+</span>
+                            <span class="stat-label">Items Sold</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Positive Feedback</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">$5K+</span>
+                            <span class="stat-label">Total Sales</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="reviews-subtitle">100% Positive Feedback from 70+ Successful Sales</p>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"The Heart of the Hide glove I bought was game-ready and in perfect condition! Saved me $150 and it's already broken in. My fielding has improved dramatically!"</p>
+                    <div class="review-author">
+                        <strong>Mike R.</strong>
+                        <span>California</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"The Aria sliding mitt I got was absolutely ridiculous in the best way! The quality is incredible and the price was unbeatable. Fast shipping too!"</p>
+                    <div class="review-author">
+                        <strong>Sarah M.</strong>
+                        <span>Texas</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"The Oakley Sutro sunglasses I bought were authentic and in perfect condition. Great communication and fast shipping. Will definitely buy from Iskool Sports again!"</p>
+                    <div class="review-author">
+                        <strong>David L.</strong>
+                        <span>Florida</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"The EvoShield protective gear bundle was exactly what I needed. Game-tested quality at a fraction of retail price. My team's safety improved dramatically!"</p>
+                    <div class="review-author">
+                        <strong>Coach Johnson</strong>
+                        <span>New York</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="review-text">"The Bruce Bolt batting gloves I got were like new and performed perfectly. The savings were incredible and the quality was top-notch. Highly recommend!"</p>
+                    <div class="review-author">
+                        <strong>Maria G.</strong>
+                        <span>Ohio</span>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-summary">
+                <div class="summary-item">
+                    <span class="summary-number">100%</span>
+                    <span class="summary-label">Positive Rating</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-number">70+</span>
+                    <span class="summary-label">Total Reviews</span>
+                </div>
+                <div class="summary-item">
+                    <span class="summary-number">20+</span>
+                    <span class="summary-label">States Served</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item email-contact">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>iskoolsports@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <div>
+                            <h4>Follow Us</h4>
+                            <p>@iskoolsports</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Return & Exchange Policy Section -->
+    <section id="returns" class="returns-policy">
+        <div class="container">
+            <h2 class="section-title">Return & Exchange Policy</h2>
+            <div class="returns-content">
+                <div class="returns-card">
+                    <div class="returns-icon">
+                        <i class="fas fa-undo-alt"></i>
+                    </div>
+                    <h3>Free Returns</h3>
+                    <p>Not satisfied with your purchase? We offer free returns within 3 days of package delivery. Simply contact us and we'll provide a return shipping label.</p>
+                </div>
+                <div class="returns-card">
+                    <div class="returns-icon">
+                        <i class="fas fa-exchange-alt"></i>
+                    </div>
+                    <h3>Free Exchanges</h3>
+                    <p>Need a different size or model? We offer free exchanges within 3 days of package delivery. Contact us to arrange your exchange.</p>
+                </div>
+                <div class="returns-card">
+                    <div class="returns-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Quality Guarantee</h3>
+                    <p>All equipment is carefully inspected before shipping. If you receive an item that doesn't meet our quality standards, we'll make it right.</p>
+                </div>
+            </div>
+            <div class="returns-details">
+                <h4>How to Return or Exchange:</h4>
+                <ol>
+                    <li>Contact us at <strong>iskoolsports@gmail.com</strong> within 3 days of delivery</li>
+                    <li>Include your order number and reason for return/exchange</li>
+                    <li>We'll provide a prepaid return shipping label</li>
+                    <li>Package the item securely and ship it back</li>
+                    <li>Once received, we'll process your refund or send your exchange</li>
+                </ol>
+                <p class="returns-note"><strong>Note:</strong> Items must be in original condition with all original packaging and tags.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Iskool Sports</h4>
+                    <p>Your premier destination for quality used baseball equipment. Serving 20+ states with 70+ successful sales and $5,000+ in revenue.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/iskoolsports" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Equipment Categories</h4>
+                    <ul>
+                        <li><a href="#categories">Baseball Bats</a></li>
+                        <li><a href="#categories">Baseball Gloves</a></li>
+                        <li><a href="#categories">Protective Gear</a></li>
+                        <li><a href="#categories">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#returns">Return Policy</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Shop Now</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Get Updates</h4>
+                    <p>Be the first to know about new used equipment arrivals</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Iskool Sports. All rights reserved. | Boston, MA | Quality Used Baseball Equipment</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
