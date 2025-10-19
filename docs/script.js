@@ -467,47 +467,89 @@ const spanishTranslations = {
     
     // Hero Section
     'Game-Changing Used Baseball Gear': 'Equipo de Béisbol Usado que Cambia el Juego',
-    'Step Up to the Plate': 'Sube al Plato',
-    'Premium used baseball equipment that still makes a huge difference. Quality pre-owned gear from Little League to the Big Leagues - because great players know that used doesn\'t mean less.': 'Equipo de béisbol usado premium que aún hace una gran diferencia. Equipo de segunda mano de calidad desde Little League hasta las Grandes Ligas - porque los grandes jugadores saben que usado no significa menos.',
+    'Discover why 70+ players chose Iskool Sports for their equipment needs. Our battle-tested, pre-owned gear delivers the same performance as new equipment at up to 70% off retail prices. From Little League to the Big Leagues - because champions know that used doesn\'t mean less, it means proven and ready to win.': 'Descubre por qué más de 70 jugadores eligieron Iskool Sports para sus necesidades de equipo. Nuestro equipo usado y probado en batalla ofrece el mismo rendimiento que el equipo nuevo con hasta 70% de descuento sobre los precios de venta al público. Desde Little League hasta las Grandes Ligas - porque los campeones saben que usado no significa menos, significa probado y listo para ganar.',
     'Shop Now': 'Comprar Ahora',
     'View Collection': 'Ver Colección',
     'Used. Proven. Effective.': 'Usado. Probado. Efectivo.',
     'Champions Choose Used': 'Los Campeones Eligen Usado',
     
-    // Categories
-    'Championship-Caliber Used Equipment': 'Equipo Usado de Calibre de Campeonato',
-    'Baseball Equipment Categories': 'Categorías de Equipo de Béisbol',
-    'Used Baseball Bats': 'Bates de Béisbol Usados',
-    'Pre-owned wood, aluminum, and composite bats that still deliver big hits': 'Bates de madera, aluminio y compuestos de segunda mano que aún dan grandes hits',
-    'Used Baseball Gloves': 'Guantes de Béisbol Usados',
-    'Broken-in gloves that are game-ready and perfectly molded': 'Guantes ya formados que están listos para el juego y perfectamente moldeados',
-    'Used Baseballs': 'Pelotas de Béisbol Usadas',
-    'Game-tested balls that still have plenty of life left': 'Pelotas probadas en juego que aún tienen mucha vida',
-    'Used Protective Gear': 'Equipo de Protección Usado',
-    'Proven helmets and gear that\'s been battle-tested': 'Cascos y equipo probado que ha sido probado en batalla',
-    'Used Baseball Apparel': 'Ropa de Béisbol Usada',
-    'Game-worn jerseys and broken-in cleats that perform': 'Jerseys usados en juego y tacos ya formados que rinden',
-    'Used Training Equipment': 'Equipo de Entrenamiento Usado',
-    'Pre-owned cages and machines that still build champions': 'Jaulas y máquinas de segunda mano que aún forman campeones',
-    'Explore': 'Explorar',
-    
-    // Products
+    // Current Products
     'Game-Ready Equipment Available Now': 'Equipo Listo para el Juego Disponible Ahora',
-    'Featured Used Baseball Equipment': 'Equipo de Béisbol Usado Destacado',
-    'Used Professional Wood Baseball Bat': 'Bate de Béisbol de Madera Profesional Usado',
-    'Game-used maple wood bat that\'s already broken in and ready to perform': 'Bate de madera de arce usado en juego que ya está formado y listo para rendir',
-    'Used Boston Red Sox Pro Glove': 'Guante Pro de Boston Red Sox Usado',
-    'Game-worn Red Sox leather glove, perfectly broken in and ready to make plays': 'Guante de cuero de Red Sox usado en juego, perfectamente formado y listo para hacer jugadas',
-    'Used Official MLB Baseballs (Dozen)': 'Pelotas Oficiales de MLB Usadas (Docena)',
-    'Game-tested MLB baseballs that still have plenty of life for practice and games': 'Pelotas de MLB probadas en juego que aún tienen mucha vida para práctica y juegos',
-    'Used Professional Catcher\'s Helmet': 'Casco de Receptor Profesional Usado',
-    'Game-tested protective helmet that\'s proven its worth behind the plate': 'Casco protector probado en juego que ha demostrado su valía detrás del plato',
-    'Add to Cart': 'Agregar al Carrito',
+    'These championship-tested pieces are ready to join your team and help you dominate on the field': 'Estas piezas probadas en campeonatos están listas para unirse a tu equipo y ayudarte a dominar en el campo',
+    'Available': 'Disponible',
+    'Request Purchase': 'Solicitar Compra',
+    
+    // About Section
+    'What is Iskool Sports?': '¿Qué es Iskool Sports?',
+    'Iskool Sports is Boston\'s premier destination for quality used baseball equipment. We specialize in pre-owned gear that\'s been carefully selected and verified for performance, offering professional-grade equipment at a fraction of retail prices.': 'Iskool Sports es el destino principal de Boston para equipo de béisbol usado de calidad. Nos especializamos en equipo de segunda mano que ha sido cuidadosamente seleccionado y verificado para el rendimiento, ofreciendo equipo de grado profesional a una fracción de los precios de venta al público.',
+    'Our mission is simple: make high-quality baseball equipment accessible to players of all levels by providing well-maintained, game-ready gear that delivers the same performance as new equipment, but at unbeatable prices.': 'Nuestra misión es simple: hacer que el equipo de béisbol de alta calidad sea accesible para jugadores de todos los niveles proporcionando equipo bien mantenido y listo para el juego que ofrece el mismo rendimiento que el equipo nuevo, pero a precios imbatibles.',
+    'Quality verified equipment': 'Equipo verificado de calidad',
+    'Up to 70% off retail prices': 'Hasta 70% de descuento sobre precios de venta al público',
+    'Fast shipping nationwide': 'Envío rápido a nivel nacional',
+    '100% customer satisfaction': '100% satisfacción del cliente',
+    
+    // Reviews
+    'What Our Customers Say': 'Lo Que Dicen Nuestros Clientes',
+    '100% Positive Feedback from 70+ Successful Sales': '100% Comentarios Positivos de Más de 70 Ventas Exitosas',
+    'Verified Purchase': 'Compra Verificada',
+    
+    // Contact
+    'Get in Touch': 'Ponte en Contacto',
+    'Email Us': 'Envíanos un Email',
+    'Follow Us': 'Síguenos',
+    'Your Name': 'Tu Nombre',
+    'Your Email': 'Tu Email',
+    'Your Message': 'Tu Mensaje',
+    'Send Message': 'Enviar Mensaje',
+    
+    // Footer
+    'Iskool Sports': 'Iskool Sports',
+    'Your premier destination for quality used baseball equipment. Serving 20+ states with 70+ successful sales and $5,000+ in revenue.': 'Tu destino principal para equipo de béisbol usado de calidad. Sirviendo más de 20 estados con más de 70 ventas exitosas y más de $5,000 en ingresos.',
+    'Equipment Categories': 'Categorías de Equipo',
+    'Baseball Bats': 'Bates de Béisbol',
+    'Baseball Gloves': 'Guantes de Béisbol',
+    'Protective Gear': 'Equipo de Protección',
+    'Accessories': 'Accesorios',
+    'Customer Service': 'Servicio al Cliente',
+    'Return Policy': 'Política de Devolución',
+    'Contact Us': 'Contáctanos',
+    'About Us': 'Acerca de Nosotros',
+    'Shop Now': 'Comprar Ahora',
+    'Get Updates': 'Recibe Actualizaciones',
+    'Be the first to know about new used equipment arrivals': 'Sé el primero en saber sobre las llegadas de nuevo equipo usado',
+    'Enter your email': 'Ingresa tu email',
+    'Subscribe': 'Suscribirse',
+    
+    // Search
+    'Search products...': 'Buscar productos...',
+    
+    // Recently Viewed
+    'Recently Viewed': 'Vistos Recientemente',
+    'Continue browsing the equipment you\'ve been checking out': 'Continúa navegando el equipo que has estado revisando',
+    'No Recently Viewed Items': 'No Hay Artículos Vistos Recientemente',
+    'Start browsing our equipment to see your recently viewed items here!': '¡Comienza a navegar nuestro equipo para ver tus artículos vistos recientemente aquí!',
+    'Browse Products': 'Navegar Productos',
     
     // Recently Sold
     'Recently Sold': 'Vendido Recientemente',
-    'These items were just purchased by our customers': 'Estos artículos fueron comprados recientemente por nuestros clientes',
-    'Used Louisville Slugger Bat': 'Bate Louisville Slugger Usado',
+    'Showing 27 of 70+ successful sales to our customers': 'Mostrando 27 de más de 70 ventas exitosas a nuestros clientes',
+    'SOLD': 'VENDIDO',
+    '70+ successful sales and counting! Join our satisfied customers.': '¡Más de 70 ventas exitosas y contando! Únete a nuestros clientes satisfechos.',
+    
+    // Return Policy
+    'Return & Exchange Policy': 'Política de Devolución e Intercambio',
+    'Free Returns': 'Devoluciones Gratuitas',
+    'Not satisfied with your purchase? We offer free returns within 3 days of package delivery. Simply contact us and we\'ll provide a return shipping label.': '¿No estás satisfecho con tu compra? Ofrecemos devoluciones gratuitas dentro de 3 días de la entrega del paquete. Simplemente contáctanos y te proporcionaremos una etiqueta de envío de devolución.',
+    'Free Exchanges': 'Intercambios Gratuitos',
+    'Need a different size or model? We offer free exchanges within 3 days of package delivery. Contact us to arrange your exchange.': '¿Necesitas una talla o modelo diferente? Ofrecemos intercambios gratuitos dentro de 3 días de la entrega del paquete. Contáctanos para arreglar tu intercambio.',
+    'Quality Guarantee': 'Garantía de Calidad',
+    'All equipment is carefully inspected before shipping. If you receive an item that doesn\'t meet our quality standards, we\'ll make it right.': 'Todo el equipo es cuidadosamente inspeccionado antes del envío. Si recibes un artículo que no cumple con nuestros estándares de calidad, lo arreglaremos.',
+    
+    // Language Button
+    'ES': 'ES',
+    'EN': 'EN',
+    
+    // Additional translations
     'Sold for': 'Vendido por',
     'hours ago': 'horas atrás',
     'day ago': 'día atrás',
@@ -591,13 +633,15 @@ const spanishTranslations = {
 function handleLanguageToggle() {
     isSpanish = !isSpanish;
     const languageText = document.querySelector('.language-text');
-    
+
     if (isSpanish) {
+        languageText.textContent = 'EN';
         translateToSpanish();
-        if (languageText) languageText.textContent = 'EN';
+        showNotification('Página traducida al español', 'info');
     } else {
+        languageText.textContent = 'ES';
         translateToEnglish();
-        if (languageText) languageText.textContent = 'ES';
+        showNotification('Page translated to English', 'info');
     }
 }
 
